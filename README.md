@@ -38,7 +38,7 @@ A plain LLM answers confidently even when it does not know. Asked about a store'
 
 ## Screenshots
 
-> Add your own screenshots to `assets/screenshots/` and keep the ones that apply.
+<!--Add your own screenshots to `assets/screenshots/` and keep the ones that apply.--> 
 
 | What | File |
 |---|---|
@@ -88,8 +88,6 @@ The agent is scored on a 12-question test set (8 in the knowledge base, 3 not in
 Full question list and results: [`docs/evaluation.md`](docs/evaluation.md).
 
 ## What went wrong and how I fixed it
-
-> Keep the entries that actually happened to you, and add your own. Real problems with real fixes are the most useful part of a project README.
 
 | # | Problem | Cause | Fix |
 |---|---|---|---|
