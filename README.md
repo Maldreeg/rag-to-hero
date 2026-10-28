@@ -97,7 +97,7 @@ Full question list and results: [`docs/evaluation.md`](docs/evaluation.md).
 | 4 | Retrieval returned wrong or no chunks | Embedding model on search did not match the model used at ingestion | Used `gemini-embedding-001` on both sides. Vectors from different models are not comparable |
 | 5 | Duplicate chunks after running ingestion twice | Store was not cleared between runs | Enabled **Clear Store** on the insert node |
 | 6 | Off-topic questions still returned "relevant" chunks | Vector search always returns the nearest results, even if none are relevant | Added an explicit rule: answer only from context, otherwise say you do not know |
-| | _Add your own_ | | |
+| | _..._ | | |
 
 ## Limitations
 
